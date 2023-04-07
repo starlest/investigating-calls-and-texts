@@ -1,0 +1,17 @@
+# Task 0
+Time complexity is O(1) since the operations are only called once each.
+
+# Task 1
+Using set(list) operation incurs time operation of O(1). Running through every text record and call record incurs time complexity of O(N) each. Thus, the overall time complexity is O(N).
+
+# Task 2
+Time complexity is O(N) since the 3 loops used to get the result runs at time complexity of O(N) respectively.
+
+# Task 3
+Part A:
+Time complexity is O(N) to loop through each call to verify the calling number is from Bangladore, and to extract the area code from the receiving number. Printing each code for the result takes O(N) too. Hence the time complexity for the solution is O(N).
+Part B:
+Time complexity is O(N) as only a loop is needed to calculate the result.
+
+# Task 4
+The time complexity is O(N) as 3 seperate loops are used to collect the possible telemarketer numbers.

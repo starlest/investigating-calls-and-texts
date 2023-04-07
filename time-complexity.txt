@@ -11,7 +11,7 @@ Time complexity is O(N) since the 3 loops used to get the result runs at time co
 Part A:
 Time complexity is O(N) to loop through each call to verify the calling number is from Bangladore, and to extract the area code from the receiving number. Printing each code for the result takes O(N) too. Hence the time complexity for the solution is O(N).
 Part B:
-Time complexity is O(N) as only a loop is needed to calculate the result.
+Time complexity is O(N) as only a loop is needed to calculate the result. However since sorted() is used, it incurs a time complexity of O(n log n) too. Thus the overall time complexity of the solution is O(n log n).
 
 # Task 4
-The time complexity is O(N) as 3 seperate loops are used to collect the possible telemarketer numbers.
+The time complexity for 3 seperate loops used to collect the possible telemarketer numbers is O(N). However since sorted() is used, it incurs a time complexity of O(n log n). Thus the overall time complexity of the solution is O(n log n).  

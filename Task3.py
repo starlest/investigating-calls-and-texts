@@ -48,7 +48,7 @@ The percentage should have 2 decimal digits
 def extract_area_code_from_fixed_line(fixed_line):
   for i, c in enumerate(fixed_line[1:]):
     if c == ")":
-      return fixed_line[1:i]
+      return fixed_line[1:i+1]
       
 codes_by_bang = set()
 

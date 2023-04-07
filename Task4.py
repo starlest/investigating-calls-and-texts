@@ -44,5 +44,5 @@ for calling_number in calling_numbers:
         possible_telemarketers.add(calling_number)
     
 print("These numbers could be telemarketers: ")
-for tele in possible_telemarketers:
+for tele in sorted(possible_telemarketers):
     print(tele)
